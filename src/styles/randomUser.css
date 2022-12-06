@@ -1,0 +1,97 @@
+.user {
+    width: 75%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: whitesmoke;
+}
+
+.upper-main{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    background-color: rgb(189, 189, 189);
+}
+
+.lower-main{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.main-photo {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+}
+
+.circle {
+    width: 145px;
+    height: 145px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    box-shadow: 0 0 0.1rem 0.1rem black;
+    position: absolute;
+    top: -85%;
+}
+
+.circle img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.main-info {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.introduction{
+    font-size: 1rem;
+}
+
+.main-name {
+    font-size: 2.5rem;
+    margin-bottom: 1.4rem;
+}
+
+.information {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.information button{
+    all: unset;
+}
+
+.information .bx{
+    font-size: 1.8rem;
+}
