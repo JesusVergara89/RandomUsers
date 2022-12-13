@@ -18,7 +18,7 @@ const RandomUser = ({ first }) => {
         setPhone(false)
         setPassword(false)
     }
-    
+
 
     const oneParameter = (e) => {
         if (e === 'A') {
@@ -86,7 +86,7 @@ const RandomUser = ({ first }) => {
      * result2
      */
 
-    const getUser = useRandom(first,userFunction)
+    const getUser = useRandom(first, userFunction)
 
     //console.log("this is console", getUser?.results[0])
     let data3
@@ -206,6 +206,8 @@ const RandomUser = ({ first }) => {
                 </div>
 
             </div>
+
+           
 
 
 
